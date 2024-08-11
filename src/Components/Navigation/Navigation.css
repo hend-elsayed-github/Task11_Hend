@@ -78,6 +78,10 @@
        width: 100%;
 
     }
+
+    #navdiv{
+        column-gap: 10px;
+    }
     #avatar{
     width: 30px;
     height: 30px;
@@ -109,5 +113,10 @@
       width: 100%;
       color: black;
       margin: 0;
+   }
+
+   #mainpage{
+    display: flex;
+    font-size: 9px;
    }
 }

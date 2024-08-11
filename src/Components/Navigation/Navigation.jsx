@@ -19,7 +19,7 @@ function Navigation(){
                         <hr className='line'></hr>
                     </div>
                     <img id='logo' src={logo}/>
-                    <Link className='linkname' to="/Page1">Collections</Link>
+                    <Link className='linkname' id='mainpage' to="/Page1">Collections</Link>
                     <Link className='linkname' to="/Page2">Men</Link>
                     <Link className='linkname' to="/Page3">Women</Link>
                     <Link className='linkname' to="/Page4">About</Link>
