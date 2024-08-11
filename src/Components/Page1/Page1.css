@@ -1,0 +1,19 @@
+#maindivinp1{
+    width: 88%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:450px) {
+    #maindivinp1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        row-gap: 5px;
+    }
+}
+
